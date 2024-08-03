@@ -97,7 +97,7 @@ class App:
             else:
                 print("Invalid choice, please try again.")
 
-        print("Final choices:", self.choices)
+        print("Final choices:", self.choices) #todo: reformat
         return self.choices
     
     def outro(self):
