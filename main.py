@@ -11,6 +11,7 @@ def intro(header="PyZiggy"):
     print("Let's get started!\n")
     print("Author: Alexander Maldonado (felixmaldonado2023@u.northwestern.edu)")
     print("Date: 08-02-2024")
+    print("")
 
 if __name__=='__main__':
     
