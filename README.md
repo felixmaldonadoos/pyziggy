@@ -10,7 +10,24 @@ d8888b. db    db d88888D d888888b  d888b   d888b  db    db
 88         YP    d88888P Y888888P  Y888P   Y888P     YP
 ```
 
-Simple python tool to install specific pre-built `zig` files. 
+Simple python tool to install specific pre-built `zig` files compiler. 
+
+## Missing: 
+
+- Still need to add some functions to properly export paths to binary directory. I may do this in a `bash` script or `python`, not sure yet. `bash` would be easier for me. 
+
+## Overview
+
+I test this mainly on a Windows 11 machine with `WSL2 Ubuntu-22.04` and `python3.10`. 
+
+`downloader.py` checks what platform you are working on, and uses `curl` or `winget` (for linux and windows, respectively) as the downloader of choice. Both, `curl` and `winget` are called using the `subprocess` python library. 
+
+Development machine: 
+- `WSL2 Ubuntu-22.04` and `Python3.10`
+
+Tested and working on: 
+- `WSL2 Ubuntu-24.04` and `Python3.12`
+- Native `Ubuntu-22.04` and `Python3.10`
 
 ## Setup
 
