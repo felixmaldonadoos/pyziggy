@@ -34,7 +34,7 @@ Tested and working on:
 1. Install dependencies
 
 ```
-pip requirements.txt
+pip  install requirements.txt
 ```
 
 2. That is it.
