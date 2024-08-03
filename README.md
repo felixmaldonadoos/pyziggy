@@ -22,10 +22,10 @@ I test this mainly on a Windows 11 machine with `WSL2 Ubuntu-22.04` and `python3
 
 `downloader.py` checks what platform you are working on, and uses `curl` or `winget` (for linux and windows, respectively) as the downloader of choice. Both, `curl` and `winget` are called using the `subprocess` python library. 
 
-Development machine: 
+**Development machine:** 
 - `WSL2 Ubuntu-22.04` and `Python3.10`
 
-Tested and working on: 
+**Tested and working on:** 
 - `WSL2 Ubuntu-24.04` and `Python3.12`
 - Native `Ubuntu-22.04` and `Python3.10`
 
